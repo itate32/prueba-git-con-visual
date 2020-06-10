@@ -1,0 +1,33 @@
+
+    body 
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color:rgb(0, 0, 0);
+        font: 'Roboto Condensed';
+        font-size: 28px;
+    }
+
+    h2 {
+        text-align: center;
+        color:rgb(0, 0, 0);
+        font: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    h3 {
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font: "Times New Roman", Times, serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-family: 'Arial';
+        font-size: 14px;
+        font-weight: light;
+    }

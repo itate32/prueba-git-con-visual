@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, 
+user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<link rel="stylesheet" href="estilomenudiario.css">
+<link rel="stylesheet" href="estilotextos.css">
+<head>
+    <title>Contacto</title>
+       	<div align="center">
+        <img src="banner.jpg" width="1020px" height="100px"/>
+    </div>
+     <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticia1.html">Noticia 1</a></li>
+                <li><a href="noticia2.html">Noticia 2</a></li>
+                <li><a href="noticia3.html">Noticia 3</a></li>
+                <li><a href="acerca.html">Contacto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+
+<body>  
+
+                <table>
+                    <form>
+                        <h2>ESCRÍBENOS !</h2>
+                        <h3>En breve te contactaremos</h3>
+                        <tr>
+                            <td> <label>Su nombre</label></td>
+                            <td><input name="Nombre" type ="text" placeholder="Escriba su nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Teléfono</label></td>
+                            <td> <input name="Teléfono" type ="tel" placeholder="Ingrese su número" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Correo</label></td>
+                            <td><input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Ingrese su mail"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Región</label></td>
+                            <td> <select name="Region">
+                                    <option value="">-I Región de Tarapacá</option>
+                                    <option value="">-II Región de Antofagasta</option>
+                                    <option value="">-III Región de Atacama</option>
+                                    <option value="">-IV Región de Coquimbo</option>
+                                    <option value="">-V Región de Valparaíso</option>
+                                    <option value="">-VI Región del Libertador General Bernardo O’Higgins</option>
+                                    <option value="">-VII Región del Maule</option>
+                                    <option value="">-VIII Región del Biobío</option>
+                                    <option value="">-IX Región de La Araucanía</option>
+                                    <option value="">-X Región de Los Lagos</option>
+                                    <option value="">-XI Región Aysén del General Carlos Ibáñez del Campo</option>
+                                    <option value="">-XII Región de Magallanes y Antártica Chilena</option>
+                                    <option value="">-Región Metropolitana de Santiago</option>
+                                    <option value="">-XIV Región de Los Ríos</option>
+                                    <option value="">-XV Región de Arica y Parinacota</option>
+                                    <option value="">-XVI Región de Ñuble</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label>Género</label></td>
+                            <td> <select name="Género">
+                                    <option value="femenino">Femenino</option>
+                                    <option value="hombre">Masculino</option>
+                                    <option value="No Binario">No Binario</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label>Mensaje</label></td>
+                            <td><textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Escriba su mensaje"></textarea></td>
+                        </tr>
+                            <tr><td><button type ="reset">Limpiar</button></td>
+                            <td><button type ="submit">Enviar</button></td></tr>
+                        
+            
+                    </form>
+                </table>
+<footer><div align="center"><img src="footer.jpg" width="1020px" height="100px"/></div></footer>
+</body>
+</html>
